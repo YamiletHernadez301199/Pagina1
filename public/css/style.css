@@ -1,0 +1,16 @@
+body{
+    color: white;
+    font-family: 'Shantell Sans', cursive;
+     /* Ubicación de la imagen */
+     background-image: url("https://w7.pngwing.com/pngs/611/327/png-transparent-purple-gradient-watercolor-background-purple-gradual-change-blue-thumbnail.png"); 
+     /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+     background-size:cover;
+      /* Para que la imagen de fondo no se repita */
+     background-repeat:no-repeat;
+      /* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
+     background-position:center center;
+      /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+     background-attachment: fixed;
+      /* Se muestra un color de fondo mientras se está cargando la imagen de fondo o si hay problemas para cargarla */
+    background-color: #6699;
+}
